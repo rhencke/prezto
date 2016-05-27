@@ -16,3 +16,9 @@ sourceIfPresent "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 
 # iTerm2 integration.
 sourceIfPresent "${ZDOTDIR:-$HOME}/.zprezto/iterm2.zsh"
+
+# DNVM
+sourceIfPresent "$HOME/.dnx/dnvm.zsh"
+
+export GOPATH=/Users/rhencke
+export PATH=$PATH:/Users/rhencke/bin
